@@ -1,0 +1,20 @@
+.left__pic-container_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+    top: 230px;
+    margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .left__pic-container_text {
+        color: #212121;
+        top: -25px;
+        left: 239px;
+    }
+}

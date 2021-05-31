@@ -1,0 +1,17 @@
+.left__rectangle {
+    position: absolute;
+    top: 0;
+    left: 232px;
+    width: 252px;
+    height: 500px;
+    background-color: #fff;
+    opacity: 0.1;
+    transform: skew(-12deg);
+    z-index: 2;
+}
+
+@media screen and (max-width:720px) {
+    .left__rectangle {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.form__submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    width: 320px;
+    height: 42px;
+    background: #428A60;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 38px;
+}
+
+.form__submit:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transform: opacity 0.2s;
+}
+
+@media screen and (max-width: 720px) {
+    .form__submit {
+        width: 280px;
+        margin: 28px 0 28px 0;
+    }
+}

@@ -1,0 +1,10 @@
+.form__name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #212121;
+    margin: 0 0 10px 0;
+}

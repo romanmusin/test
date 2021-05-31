@@ -1,0 +1,32 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/left/left.css');
+@import url('../blocks/left/__title/left__title.css');
+@import url('../blocks/left/__pic-container/left__pic-container.css');
+@import url('../blocks/left/__pic-container/_text/left__pic-container_text.css');
+@import url('../blocks/left/__pic/left__pic.css');
+@import url('../blocks/left/__circle/left__circle.css');
+@import url('../blocks/left/__rectangle/left__rectangle.css');
+
+@import url('../blocks/right/right.css');
+@import url('../blocks/right/__header/right__header.css');
+@import url('../blocks/right/__header-title/right__header-title.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__name/form__name.css');
+@import url('../blocks/form/__input-name/form__input-name.css');
+@import url('../blocks/form/__div/form__div.css');
+@import url('../blocks/form/__input-phone/form__input-phone.css');
+@import url('../blocks/form/__lang/form__lang.css');
+@import url('../blocks/form/__option/form__option.css');
+@import url('../blocks/form/__lang/_img/form__lang_img.css');
+@import url('../blocks/form/__lang/_list/form__lang_list.css');
+@import url('../blocks/form/__submit/form__submit.css');
+@import url('../blocks/form/__submit-text/form__submit-text.css');
+@import url('../blocks/form/__submit-arrow/form__submit-arrow.css');
+@import url('../blocks/green/green.css');
+@import url('../blocks/right/__floor/right__floor.css');
+@import url('../blocks/right/__floor/_trusted/right__floor_trusted.css');
+@import url('../blocks/right/__floor/_lock/right__floor_lock.css');
+@import url('../blocks/right/__floor/_secure/right__floor_secure.css');

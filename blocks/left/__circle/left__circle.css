@@ -1,0 +1,18 @@
+.left__circle {
+    position: absolute;
+    width: 398px;
+    height: 398px;
+    left: 20px;
+    top: 71px;
+    background: #428A60;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 720px) {
+    .left__circle {
+        width: 202px;
+        height: 202px;
+        left: 39px;
+        top: 32px;
+    }
+}

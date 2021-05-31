@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pages/index.css">
+        <title>Форма заказа</title>
+    </head>
+    <body class="body">
+        <div class="page">
+            <section class="left">
+                <h1 class="left__title">Riduslim</h1>
+                <div class="left__pic-container">
+                    <img src="images/pills.png" alt="Картинка" class="left__pic">
+                    <p class="left__pic-container_text">eco</p>
+                </div>
+                <div class="left__circle"></div>
+                <div class="left__rectangle"></div>
+            </section>
+
+            <section class="right">
+                <div class="right__header">
+                    <h2 class="right__header-title">Сделай шаг к выздоровлению</h2>
+                </div>
+                <div class="form">
+                    <p class="form__name">Ваше <span class="green">имя</span></p>
+                    <input type="text" class="form__input-name" placeholder="Алексей">
+                    <p class="form__name">Ваш <span class="green">телефон</span></p>
+                    <div class="form__div">
+                        <input type="text" class="form__input-phone" placeholder="+7 (123) 456 78-90">
+                        <ul class="form__lang">
+                            <!--Список ul (а не select) сделан для дальнейшей иммитации выпадающего списка через JS-->
+                            <li class="form__option">RU<img src="images/flag.svg" alt="флаг РФ" class="form__lang_img"></li>
+                             
+                            <img src="images/list.svg" alt="список" class="form__lang_list">
+                        </ul>
+                    </div>
+                </div>
+                <button type="submit" class="form__submit"><p class="form__submit-text">Заказать</p><img src="images/arrow.svg" alt="стрелка" class="form__submit-arrow"></button>
+                <div class="right__floor">
+                    <p class="right__floor_trusted">Trusted</p>
+                    <img src="images/lock.svg" alt="замок" class="right__floor_lock">
+                    <p class="right__floor_secure">Secure</p>
+                </div>
+            </section>
+        </div>
+    </body>   
+</html> 

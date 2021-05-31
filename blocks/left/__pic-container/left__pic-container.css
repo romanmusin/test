@@ -1,0 +1,5 @@
+.left__pic-container {
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
+}

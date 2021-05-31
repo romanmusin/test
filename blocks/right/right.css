@@ -1,0 +1,17 @@
+.right {
+    width: 560px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+@media screen and (max-width: 720px) {
+    .right {
+        width: 320px;
+        height: 416px;
+    }
+}

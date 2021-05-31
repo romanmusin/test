@@ -1,0 +1,17 @@
+.left__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #fff;
+    margin: 40px 0 149px 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .left__title {
+        font-size: 18px;
+        line-height: 130%;
+        color: #212121;
+        margin: 0;
+    }
+}

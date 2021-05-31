@@ -1,0 +1,19 @@
+.right__header {
+    background: #F8F8F8;
+    border-radius: 30px;
+    max-width: 560px;
+    max-height: 136px;
+    margin: 0;
+    margin-bottom: 52px;
+    padding: 29px 128px 29px 128px;
+}
+
+@media screen and (max-width: 720px) {
+    .right__header {
+        max-width: 280px;
+        max-height: 78px;
+        padding: 0;
+        margin-bottom: 28px;
+        background: white;
+    }
+}

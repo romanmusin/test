@@ -1,0 +1,14 @@
+.left__pic {
+    width: 465px;
+    height: 255px;
+    margin-left: 57px;
+    margin-bottom: 33px;
+}
+
+@media screen and (max-width: 720px) {
+    .left__pic {
+        width: 223px;
+        height: 122px;
+        margin: 57px 36px 32px 21px;
+    }
+}

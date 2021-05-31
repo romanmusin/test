@@ -1,0 +1,23 @@
+.form__lang {
+    width: 116px;
+    height: 50px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px 20px;
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+@media screen and (max-width: 720px) {
+    .form__lang {
+        width: 96px;
+        margin-left: 10px;
+        padding: 16px 10px;
+    }
+}
